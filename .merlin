@@ -1,6 +1,6 @@
 ####{BSB GENERATED: NO EDIT
-FLG -ppx '/Users/justgage/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
-FLG -ppx /Users/justgage/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/bs-platform/lib/bsppx.exe
+FLG -ppx '/Users/justgage/sandbox/gen-type-example/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
+FLG -ppx /Users/justgage/sandbox/gen-type-example/node_modules/bs-platform/lib/bsppx.exe
 S /Users/justgage/sandbox/gen-type-example/node_modules/bs-platform/lib/ocaml
 B /Users/justgage/sandbox/gen-type-example/node_modules/bs-platform/lib/ocaml
 FLG -nostdlib -color always

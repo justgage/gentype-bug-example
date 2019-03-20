@@ -8,8 +8,16 @@ import * as ReasonReact from 'reason-react/src/ReasonReact.js';
 
 export const LocationsList = ReasonReact.wrapReasonForJs(
   LocationsListBS.component,
-  (function _(jsProps) {
-     return Curry._5(LocationsListBS.make, jsProps.locations, jsProps.isLoading, jsProps.appendLocation, (jsProps.selectedLocation == null ? undefined : jsProps.selectedLocation), jsProps.children);
-  }));
+  function _(jsProps) {
+    return Curry._5(
+      LocationsListBS.make,
+      jsProps.locations,
+      jsProps.isLoading,
+      jsProps.appendLocation,
+      jsProps.selectedLocation == null ? undefined : jsProps.selectedLocation,
+      jsProps.children
+    );
+  }
+);
 
 export default LocationsList;
