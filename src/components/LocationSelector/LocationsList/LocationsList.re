@@ -54,10 +54,7 @@ let make =
       {
         if (!isLoading && isNoLocations) {
           <div>
-            <div>
-              "No location matching your search, try again or enter in city, state, or zip"
-              ->ReasonReact.string
-            </div>
+            <div> "No location matching your search"->ReasonReact.string </div>
           </div>;
         } else {
           ReasonReact.null;

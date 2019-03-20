@@ -1,13 +1,9 @@
 5.0.0-dev.6
 1
-5
-BEM
-Routes
+3
 Location
 LocationItem
 LocationsList
-src/lib/BEM,04
-src/lib/Routes,04
 src/types/location,03
 src/components/LocationSelector/LocationItem/LocationItem,04
 src/components/LocationSelector/LocationsList/LocationsList,04

@@ -7,8 +7,6 @@ FLG -nostdlib -color always
 FLG -w -30-40+6+7+27+32..39+44+45+101
 S /Users/justgage/sandbox/gen-type-example/node_modules/reason-react/lib/ocaml
 B /Users/justgage/sandbox/gen-type-example/node_modules/reason-react/lib/ocaml
-S src/lib
-B lib/bs/src/lib
 S src/components/LocationSelector/LocationsList
 B lib/bs/src/components/LocationSelector/LocationsList
 S src/components/LocationSelector/LocationItem

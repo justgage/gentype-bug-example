@@ -24,7 +24,7 @@ function make(locations, isLoading, appendLocation, selectedLocation, _children)
               return React.createElement("div", undefined, isLoading ? React.createElement("div", undefined, React.createElement("div", undefined)) : null, !isLoading && !isNoLocations ? React.createElement("div", undefined, $$Array.map((function ($$location) {
                                       var actionButtonsActive = selectedLocation !== undefined ? Caml_obj.caml_equal(selectedLocation, $$location) : false;
                                       return ReasonReact.element($$location[/* id */0], undefined, LocationItem.make(appendLocation, $$location, actionButtonsActive, /* array */[]));
-                                    }), locations)) : null, !isLoading && isNoLocations ? React.createElement("div", undefined, React.createElement("div", undefined, "No location matching your search, try again or enter in city, state, or zip")) : null);
+                                    }), locations)) : null, !isLoading && isNoLocations ? React.createElement("div", undefined, React.createElement("div", undefined, "No location matching your search")) : null);
             }),
           /* initialState */component[/* initialState */10],
           /* retainedProps */component[/* retainedProps */11],
