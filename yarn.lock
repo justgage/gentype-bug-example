@@ -2007,6 +2007,11 @@ browserslist@^4.0.0, browserslist@^4.3.4, browserslist@^4.3.5, browserslist@^4.4
     electron-to-chromium "^1.3.113"
     node-releases "^1.1.8"
 
+bs-platform@5.0.0-dev.6:
+  version "5.0.0-dev.6"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-5.0.0-dev.6.tgz#aaa076debd40c2e710b52985aa22d8d3f05bf09d"
+  integrity sha512-41C/VUPBJp/TboHVIUhgdwXbRY8Yijj9ccnc7C0usmg4SJKtFTAvnLrHZYUP3cWOZcoTkMatjf9IfGN9/f5FlA==
+
 bser@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/bser/-/bser-2.0.0.tgz#9ac78d3ed5d915804fd87acb158bc797147a1719"
@@ -4080,6 +4085,11 @@ gauge@~2.7.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
+
+gentype@^2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-2.16.0.tgz#68aa0aa7f03bf884fc51121d6a1ca8ca67a29acc"
+  integrity sha512-fa2UzXmgj78XzybGZI7WUp7nJZ9JdwJ6EkpTeYRumNFQ5UNLNbavUk8HPfyp0rmJaCzfFrglTqqTLMj/Uau/kQ==
 
 get-caller-file@^1.0.1:
   version "1.0.3"
@@ -7906,7 +7916,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.4:
+"react-dom@>=15.0.0 || >=16.0.0", react-dom@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
   integrity sha512-Ob2wK7XG2tUDt7ps7LtLzGYYB6DXMCLj0G5fO6WeEICtT4/HdpOi7W/xLzZnR6RCG1tYza60nMdqtxzA8FaPJQ==
@@ -7980,7 +7990,7 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.4:
+"react@>=15.0.0 || >=16.0.0", react@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
   integrity sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg==
@@ -8061,6 +8071,14 @@ realpath-native@^1.0.0:
   integrity sha512-wlgPA6cCIIg9gKz0fgAPjnzh4yR/LnXovwuo9hvyGvx3h8nX4+/iLZplfUWasXpqD8BdnGnP5njOFjkUwPzvjA==
   dependencies:
     util.promisify "^1.0.0"
+
+reason-react@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.6.0.tgz#e9a7d6a10958161c3a12ef7fec1b6662edaae94a"
+  integrity sha512-FKzBDXE96KPyUbeRo2ToqUe9rl4IKgwegtjCXvyx0bzJXCKLqwiiN3OiOTH/siJS+/IZRZhBAHnd/R3VkRMsMQ==
+  dependencies:
+    react ">=15.0.0 || >=16.0.0"
+    react-dom ">=15.0.0 || >=16.0.0"
 
 recursive-readdir@2.2.2:
   version "2.2.2"

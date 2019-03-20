@@ -1,0 +1,18 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx '/Users/justgage/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
+FLG -ppx /Users/justgage/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/bs-platform/lib/bsppx.exe
+S /Users/justgage/sandbox/gen-type-example/node_modules/bs-platform/lib/ocaml
+B /Users/justgage/sandbox/gen-type-example/node_modules/bs-platform/lib/ocaml
+FLG -nostdlib -color always
+FLG -w -30-40+6+7+27+32..39+44+45+101
+S /Users/justgage/sandbox/gen-type-example/node_modules/reason-react/lib/ocaml
+B /Users/justgage/sandbox/gen-type-example/node_modules/reason-react/lib/ocaml
+S src/lib
+B lib/bs/src/lib
+S src/components/LocationSelector/LocationsList
+B lib/bs/src/components/LocationSelector/LocationsList
+S src/components/LocationSelector/LocationItem
+B lib/bs/src/components/LocationSelector/LocationItem
+S src/types
+B lib/bs/src/types
+####BSB GENERATED: NO EDIT}

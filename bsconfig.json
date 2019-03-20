@@ -1,0 +1,32 @@
+{
+  "name": "demogorgon",
+  "reason": {
+    "react-jsx": 2
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": false,
+  "bs-dependencies": ["reason-react"],
+  "refmt": 3,
+  "warnings": {},
+  "js-post-build": { "cmd": "/usr/bin/sed -i '' '/use strict/d'" },
+  "gentypeconfig": {
+    "language": "untyped",
+    "shims": {},
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  }
+}
